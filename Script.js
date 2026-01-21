@@ -56,6 +56,6 @@ console.log("Hello" +obj);
 
 const data = ["A", "B", "E", "F", "G"];
 data.splice(2,0,"C","D");    //want to add C and D from second position...., why adding 0 there ?
-                            //Because 0 means no elements will be deleted after that position and 
+                            //Because 0 means no elements will be deleted after insertion at that position and 
                             //if 1 then 1 will be deleted and 2 and so on...
 console.log(data);
