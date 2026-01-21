@@ -79,3 +79,46 @@ if (number > 0){
 }else{
     console.log("-ve");
 }
+
+
+const today = new Date();   //Date() is a predefined function for system time date and everything...
+
+console.log(today);
+console.log(today.getDay());    //3
+
+switch (new Date().getDay()){     //3 
+    case 0:
+        day = "Sunday";
+        break;
+
+    case 1:
+        day = "M";
+        break;
+    
+    case 2:
+        day = "T";
+        break;
+
+    case 9:
+        day = "W";
+        break;
+
+    case 4:
+        day = "T";
+        break;
+
+    case 5:
+        day = "F";
+        break;
+
+    case 6:
+        day = "S";
+        break;
+
+    default:
+        day = "Select Valid Option ";
+}
+
+console.log(day);
+
+
