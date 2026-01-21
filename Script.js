@@ -204,3 +204,7 @@ console.log(m==l);  //True , matches the value only
 console.log(m===l);  //False, matches the value + Type.. here type different... 
 
 
+const o = 'hello';
+console.log(o.charAt(3));
+
+
