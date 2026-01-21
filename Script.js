@@ -129,3 +129,12 @@ for (let i=0; i<ok.length; i++){
 }
 
 
+const f=[2,4,6];
+f.forEach(fun);
+
+function fun(element, index){
+    console.log(index);
+    console.log(element);
+}
+
+
