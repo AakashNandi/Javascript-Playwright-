@@ -1,3 +1,5 @@
+const { Console } = require("console");
+
 console.log("Hello")
 let y=5;    //number
 y=10;  //retinitialize   it's now string
@@ -68,3 +70,12 @@ function add(x,y){
 }
 
 console.log(add(3,5));
+
+
+const number = 10;
+
+if (number > 0){
+    console.log("+ve");
+}else{
+    console.log("-ve");
+}
