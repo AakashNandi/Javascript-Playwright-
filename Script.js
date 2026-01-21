@@ -195,3 +195,12 @@ try{
 catch (error){
     console.log("error occured: " +error);
 }
+
+
+const m=5;
+const l='5';
+
+console.log(m==l);  //True , matches the value only 
+console.log(m===l);  //False, matches the value + Type.. here type different... 
+
+
