@@ -122,3 +122,10 @@ switch (new Date().getDay()){     //3
 console.log(day);
 
 
+const ok = ["okay", "oka", "ohkay"];
+
+for (let i=0; i<ok.length; i++){
+    console.log(ok[i]);
+}
+
+
