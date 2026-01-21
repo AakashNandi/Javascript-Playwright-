@@ -156,8 +156,12 @@ while(i<n){
 
 //lamda : shorten the implementation
 
-let add2 = (a,b) => {return a+b};
+add2 = (a,b) => {return a+b};
 
 console.log(add2(1,2));
+
+add3 = (c,d) => {console.log(c+d);}
+
+add3(3,4);
 
 
