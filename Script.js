@@ -145,6 +145,19 @@ k.forEach(function(element, index){
     console.log(element);
 });
 
+//while
 
+let i=0, n=5;
+
+while(i<n){
+    console.log(i);
+    i++;
+}
+
+//lamda : shorten the implementation
+
+let add2 = (a,b) => {return a+b};
+
+console.log(add2(1,2));
 
 
