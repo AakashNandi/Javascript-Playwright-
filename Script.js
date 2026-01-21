@@ -137,4 +137,14 @@ function fun(element, index){
     console.log(element);
 }
 
+//or
+const k=[1,2,3];
+
+k.forEach(function(element, index){
+    console.log("                "+index);
+    console.log(element);
+});
+
+
+
 
