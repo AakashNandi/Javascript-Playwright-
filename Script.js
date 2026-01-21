@@ -165,3 +165,19 @@ add3 = (c,d) => {console.log(c+d);}
 add3(3,4);
 
 
+//try catch
+
+n=10;
+d="a";
+
+try{
+    console.log(n/d);
+    console.log(p);  //forgot to define variable a
+}catch(error){
+    console.log('An error caught' +error);
+    console.log(error.name);
+    console.log(error.message);
+}finally{
+    console.log("Executed");
+}
+
