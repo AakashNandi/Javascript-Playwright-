@@ -59,3 +59,12 @@ data.splice(2,0,"C","D");    //want to add C and D from second position...., why
                             //Because 0 means no elements will be deleted after insertion at that position and 
                             //if 1 then 1 will be deleted and 2 and so on...
 console.log(data);
+
+
+//Function
+
+function add(x,y){
+    return x+y;
+}
+
+console.log(add(3,5));
