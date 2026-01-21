@@ -181,3 +181,17 @@ try{
     console.log("Executed");
 }
 
+
+
+const age = 15;
+
+try{
+    if(age>=18)
+        console.log('Valid to vote...');
+    else{
+        throw new Error ('Not capable to vote'); //user-defined exception
+    }
+}
+catch (error){
+    console.log("error occured: " +error);
+}
